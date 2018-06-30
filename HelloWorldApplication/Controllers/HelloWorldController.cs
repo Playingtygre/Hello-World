@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using System.Collections.Generic;
 using System.Web.Http;
 using HelloWorldApplication.Models;
 
+
+/* the Web API controller that will handle the http request
+ */
+
 namespace HelloWorldApplication.Controllers
 {
+    
     public class HelloWorldController : ApiController
     {
         HelloWorldModel[] sayhello = new HelloWorldModel[]
@@ -21,7 +22,8 @@ namespace HelloWorldApplication.Controllers
             return sayhello;
         }
 
-        /* CREATE, UPDATE, AND DELETE METHODS CAN GO HERE
+        /*
+         *CREATE, UPDATE, AND DELETE METHODS CAN GO HERE
          */
 
     }

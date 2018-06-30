@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using HelloWorldApplication.Models;
+﻿/* The object model that only needs to show "Hello World"
+ */
 
 namespace HelloWorldApplication.Models
 {
