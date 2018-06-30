@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> Hello World App</title>
+</head>
+<body>
+
+    <div>
+        <ul id="item" />
+    </div>
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script>
+        var uri = 'api/HelloWorld';
+
+    $(document).ready(function () {
+      // Send an AJAX request
+      $.getJSON(uri)
+          .done(function (data) {
+            // On success, 'data' contains a list of products.
+            $.each(data, function (key, item) {
+              // Add a list item for the product.
+              $('<ul>', { text: formatItem(item) }).appendTo($('#item'));// this appending function
+            });
+          });
+    });
+
+
+    function formatItem(item) {
+        return item.Name;
+    }
+
+
+    </script>
+</body>
+</html>
