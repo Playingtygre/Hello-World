@@ -1,12 +1,12 @@
 ## Hello-World
 Coding Challenge done for BrookstoneSource
 
-##Description
+## Description
 This was a coding challenge given to me from a recruiter at brook source located in 
 Indianapolis, Indiana.
 
-Technical excerise: 
-The Main goal is
+## Objectives
+This Technical excerise:
 - must write hello world
 
 Secondary focus included
@@ -15,7 +15,8 @@ Secondary focus included
 - written using .NET
 - several unit tests
 
-##Contents
+## Contents
 deployed state
+Index page
 
 ##Usage
