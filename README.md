@@ -7,16 +7,12 @@ Indianapolis, Indiana.
 
 ## Objectives
 This Technical excerise:
-- must write hello world
+- must write hello world / Completed
+- written using .NET / Completed
+- several unit tests / Completed
+- Have a API / Completed
 
 Secondary focus included
-- API
-- Possiblity to support future enchancements
-- written using .NET
-- several unit tests
+- Possiblity to support future enchancements / true
 
 ## Contents
-deployed state
-Index page
-
-##Usage
