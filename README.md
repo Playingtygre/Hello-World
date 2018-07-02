@@ -1,7 +1,7 @@
-# Hello-World
+## Hello-World
 Coding Challenge done for BrookstoneSource
 
-#Summary
+##Description
 This was a coding challenge given to me from a recruiter at brook source located in 
 Indianapolis, Indiana.
 
@@ -15,4 +15,7 @@ Secondary focus included
 - written using .NET
 - several unit tests
 
-deployed state 
+##Contents
+deployed state
+
+##Usage
